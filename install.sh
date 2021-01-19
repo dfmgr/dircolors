@@ -176,6 +176,7 @@ failexitcode
 
 run_postinst() {
     dfmgr_run_post
+    ln_sf "$APPDIR" "$HOME/.dircolors"
 }
 
 execute \
