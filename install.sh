@@ -143,7 +143,7 @@ fi
 # run post install scripts
 run_postinst() {
   dfmgr_run_post
-  ln_sf "$APPDIR/default" "$HOME/.dircolors"
+  [ -e "$HOME/.dircolors" ] || ln_sf "$APPDIR/default" "$HOME/.dircolors"
 }
 #
 execute "run_postinst" "Running post install scripts"
