@@ -53,7 +53,7 @@ APPNAME="${APPNAME:-dircolors}"
 APPDIR="$CONF/$APPNAME"
 INSTDIR="$CASJAYSDEVSHARE/$SCRIPTS_PREFIX/$APPNAME"
 REPO_BRANCH="${GIT_REPO_BRANCH:-master}"
-REPO="${DFMGR:-https://github.com/dfmgr}/$APPNAME"
+REPO="$DFMGRREPO/$APPNAME"
 REPORAW="$REPO/raw/$REPO_BRANCH"
 APPVERSION="$(__appversion "$REPORAW/version.txt")"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
