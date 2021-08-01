@@ -5,7 +5,7 @@ dircolors outputs a sequence of shell commands to set up the terminal for color 
 Automatic install/update:
 
 ```shell
-bash -c "$(curl -LSs https://github.com/dfmgr/dircolors/raw/master/install.sh)"
+bash -c "$(curl -LSs https://github.com/dfmgr/dircolors/raw/main/install.sh)"
 ```
 
 Manual install:
